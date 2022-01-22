@@ -1,0 +1,1 @@
+Este es un adminisrtador de tareas, CRUD, construido en AJAX con PHP y MySQL.
