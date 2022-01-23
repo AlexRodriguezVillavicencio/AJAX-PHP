@@ -1,0 +1,11 @@
+.contenedor-general{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.contenedor-1{
+    max-width: 500px;
+}
+.contenedor-2{
+    max-width: 500px;
+}

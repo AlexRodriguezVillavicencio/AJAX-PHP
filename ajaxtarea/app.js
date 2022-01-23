@@ -41,8 +41,7 @@ $(function(){
         // para editar
         let url = editar === false ? 'agregar.php ': 'editando.php ';
 
-        $.post(url,datos,function(response){
-            console.log(response);
+        $.post(url,datos,function(){
             obtenerTarea();
             $('#form-tarea').trigger('reset');
         })
@@ -61,7 +60,6 @@ $(function(){
                 tareas.forEach(element => {
                     template += `
                     <tr elementID="${element.id}">
-                        <td>${element.id}</td>
                         <td><a href"#" class="editar">${element.name}</a></td>
                         <td>${element.description}</td>
                         <td class="btn eliminar">🗑️</td>                        
