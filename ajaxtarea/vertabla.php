@@ -14,7 +14,7 @@
             $json[] = array(
                 'id' => $row['id'],
                 'name' => $row['name'],
-                'description' => $row['description'],
+                'description' => $row['description']
             );
         }
     $jsonstring = json_encode($json);
