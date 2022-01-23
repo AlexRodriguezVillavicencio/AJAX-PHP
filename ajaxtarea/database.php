@@ -1,13 +1,13 @@
 <?php
 
-    $conexion = mysqli_connect{
+    $connection = mysqli_connect(
         'localhost',
         'root',
-        'password',
-        'ajaxtarea',
-    }
-    if($conexion){
-        alert('la base de datos esta conectada');
-    }
+        '',
+        'ajaxtarea'
+    );
+    // if($connection){
+    //     echo "conectado a la base de datos: ";
+    // };
 
 ?>
